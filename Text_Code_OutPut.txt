@@ -1,0 +1,852 @@
+/Users/apple/PycharmProjects/MysteryGame/.venv/bin/python /Users/apple/PycharmProjects/MysteryGame/Main.py
+
+!!this is the test code for the new game
+
+_________________ Welcome to Mystery Castle Game _________________
+Do you want to start a [new] game or [load] a saved game?
+new
+
+Starting a new game...
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 1
+
+You take a look around...
+
+Location: You are in the Cafeteria.
+
+Item Found:food
+
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: food
+
+Invalid choice. Please enter a number between 1 and 6.
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 3
+
+You try to take an item...
+
+What would you like to pick up?
+food
+Enter the name of the item you want to pick: food
+
+*** food added to your inventory. ***
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 2
+
+Where would you like to move?
+
+Enter 'South' to move to Storage.
+Enter 'East' to move to Weapons.
+Enter 'West' to move to UpperEngine.
+
+Enter direction: east
+
+***You have moved to Weapons ***
+
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 1
+
+You take a look around...
+
+Location: You are in the Weapons room.
+
+Puzzle Found: Locked Box
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 2
+
+Where would you like to move?
+
+Enter 'South' to move to Navigation.
+Enter 'West' to move to Cafeteria.
+
+Enter direction: south
+
+***You have moved to Navigation ***
+
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 1
+
+You take a look around...
+
+Location: You are in the Navigation room.
+
+Item Found:bullet
+
+Item Found:8989
+
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 3
+
+You try to take an item...
+
+What would you like to pick up?
+8989
+bullet
+Enter the name of the item you want to pick: bullet
+
+*** bullet added to your inventory. ***
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 3
+
+You try to take an item...
+
+What would you like to pick up?
+8989
+Enter the name of the item you want to pick: 8989
+
+*** 8989 added to your inventory. ***
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 2
+
+Where would you like to move?
+
+Enter 'North' to move to Weapons.
+
+Enter direction: north
+
+***You have moved to Weapons ***
+
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 2
+
+Where would you like to move?
+
+Enter 'South' to move to Navigation.
+Enter 'West' to move to Cafeteria.
+
+Enter direction: west
+
+***You have moved to Cafeteria ***
+
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 2
+
+Where would you like to move?
+
+Enter 'South' to move to Storage.
+Enter 'East' to move to Weapons.
+Enter 'West' to move to UpperEngine.
+
+Enter direction: west
+
+***You have moved to UpperEngine ***
+
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 1
+
+You take a look around...
+
+Location: You are in the Upper Engine room.
+
+Item Found:bullet
+
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 3
+
+You try to take an item...
+
+What would you like to pick up?
+bullet
+Enter the name of the item you want to pick: bullet
+
+*** bullet added to your inventory. ***
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 2
+
+Where would you like to move?
+
+Enter 'South' to move to Security.
+Enter 'East' to move to Cafeteria.
+
+Enter direction: south
+
+***You have moved to Security ***
+
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 1
+
+You take a look around...
+
+Location: You are in the Security room.
+
+Puzzle Found: Monster
+
+*** ALERT: The monster hits you! Your health reduces to 50 ***
+You don't have the required items in your inventory to solve Monster.
+
+
+You have food in your inventory.
+Do you want to eat the food to restore health? (yes/no): yes
+
+*** You ate the food. Your health is now 100% ***
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 1
+
+You take a look around...
+
+Location: You are in the Upper Engine room.
+
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 2
+
+Where would you like to move?
+
+Enter 'South' to move to Security.
+Enter 'East' to move to Cafeteria.
+
+Enter direction: west
+Invalid direction. Please try again.
+
+Enter direction: east
+
+***You have moved to Cafeteria ***
+
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 2
+
+Where would you like to move?
+
+Enter 'South' to move to Storage.
+Enter 'East' to move to Weapons.
+Enter 'West' to move to UpperEngine.
+
+Enter direction: est
+Invalid direction. Please try again.
+
+Enter direction: east
+
+***You have moved to Weapons ***
+
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 1
+
+You take a look around...
+
+Location: You are in the Weapons room.
+
+Puzzle Found: Locked Box
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 2
+
+Where would you like to move?
+
+Enter 'South' to move to Navigation.
+Enter 'West' to move to Cafeteria.
+
+Enter direction: west
+
+***You have moved to Cafeteria ***
+
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 2
+
+Where would you like to move?
+
+Enter 'South' to move to Storage.
+Enter 'East' to move to Weapons.
+Enter 'West' to move to UpperEngine.
+
+Enter direction: south
+
+***You have moved to Storage ***
+
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 1
+
+You take a look around...
+
+Location: You are in the Storage room.
+
+Item Found:a broken Key 1
+
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 3
+
+You try to take an item...
+
+What would you like to pick up?
+a broken Key 1
+Enter the name of the item you want to pick: a briken Key 1
+Invalid item. Please try again.
+Enter the name of the item you want to pick: a broken Key 1
+
+*** a broken Key 1 added to your inventory. ***
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 2
+
+Where would you like to move?
+
+Enter 'North' to move to Cafeteria.
+Enter 'South' to move to Basement.
+Enter 'East' to move to Navigation.
+Enter 'West' to move to Reactor.
+
+Enter direction: west
+
+***You have moved to Reactor ***
+
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 1
+
+You take a look around...
+
+Location: You are in the Reactor room.
+
+Item Found:food
+
+Puzzle Found: Locked Locker
+
+You can solve Locked Locker by using 8989 from your inventory.
+Enter 'Yes' to solve or 'No' to continue: yes
+['food', 'a broken Key 2']
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 3
+
+You try to take an item...
+
+What would you like to pick up?
+a broken Key 2
+food
+Enter the name of the item you want to pick: a broken kKey 2
+Invalid item. Please try again.
+Enter the name of the item you want to pick: a broken Key 2
+
+*** a broken Key 2 added to your inventory. ***
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 2
+
+Where would you like to move?
+
+Enter 'East' to move to Storage.
+
+Enter direction: east
+
+***You have moved to Storage ***
+
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 2
+
+Where would you like to move?
+
+Enter 'North' to move to Cafeteria.
+Enter 'South' to move to Basement.
+Enter 'East' to move to Navigation.
+Enter 'West' to move to Reactor.
+
+Enter direction: north
+
+***You have moved to Cafeteria ***
+
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 2
+
+Where would you like to move?
+
+Enter 'South' to move to Storage.
+Enter 'East' to move to Weapons.
+Enter 'West' to move to UpperEngine.
+
+Enter direction: east
+
+***You have moved to Weapons ***
+
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 1
+
+You take a look around...
+
+Location: You are in the Weapons room.
+
+Puzzle Found: Locked Box
+
+You can solve Locked Box by using a broken Key 1 . a broken Key 2 from your inventory.
+Enter 'Yes' to solve or 'No' to continue: yes
+['Gun']
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 3
+
+You try to take an item...
+
+What would you like to pick up?
+Gun
+Enter the name of the item you want to pick: Gun
+
+*** Gun added to your inventory. ***
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 2
+
+Where would you like to move?
+
+Enter 'South' to move to Navigation.
+Enter 'West' to move to Cafeteria.
+
+Enter direction: west
+
+***You have moved to Cafeteria ***
+
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 2
+
+Where would you like to move?
+
+Enter 'South' to move to Storage.
+Enter 'East' to move to Weapons.
+Enter 'West' to move to UpperEngine.
+
+Enter direction: west
+
+***You have moved to UpperEngine ***
+
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 2
+
+Where would you like to move?
+
+Enter 'South' to move to Security.
+Enter 'East' to move to Cafeteria.
+
+Enter direction: south
+
+***You have moved to Security ***
+
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 1
+
+You take a look around...
+
+Location: You are in the Security room.
+
+Puzzle Found: Monster
+
+You can solve Monster by using Gun . bullet . bullet from your inventory.
+Enter 'Yes' to solve or 'No' to continue: yes
+['Torch']
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 3
+
+You try to take an item...
+
+What would you like to pick up?
+Torch
+Enter the name of the item you want to pick: Torch
+
+*** Torch added to your inventory. ***
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 2
+
+Where would you like to move?
+
+Enter 'North' to move to UpperEngine.
+Enter 'South' to move to ExitRoom.
+
+Enter direction: south
+To enter in Exit room you have to have Exit Key
+
+***You have moved to Basement ***
+
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 1
+
+You take a look around...
+
+Location: You are in the Basement.
+
+Puzzle Found: Dark
+
+You can solve Dark by using Torch from your inventory.
+Enter 'Yes' to solve or 'No' to continue: yes
+['ExitKey']
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 3
+
+You try to take an item...
+
+What would you like to pick up?
+ExitKey
+Enter the name of the item you want to pick: ExitKey
+
+*** ExitKey added to your inventory. ***
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 2
+
+Where would you like to move?
+
+Enter 'North' to move to Storage.
+Enter 'West' to move to ExitRoom.
+
+Enter direction: west
+
+***You have moved to ExitRoom ***
+
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 1
+
+You take a look around...
+
+Location: You are in the Exit room.
+
+Puzzle Found: Locked Door
+
+You can solve Locked Door by using ExitKey from your inventory.
+Enter 'Yes' to solve or 'No' to continue: yes
+[]
+
+What would you like to do?
+1. Look around
+2. Move to another room
+3. Take an item
+4. Look at your inventory
+5. Save game and quit
+6. Quit the game
+
+Enter the number of your action: 2
+
+Where would you like to move?
+
+Solve this Riddle to Exit you have 5 chances
+Wo kon si cheez ha jis ko ham pani k ander khaty han
+
+Answer the Riddle Gota
+_________________ You have Won The Game _________________
+
+Process finished with exit code 0
+
+
+
+
