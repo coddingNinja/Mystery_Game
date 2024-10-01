@@ -1,0 +1,149 @@
+{
+    "Cafeteria": {
+        "Items": [
+            "food"
+        ],
+        "Description": "You are in the Cafeteria.",
+        "Directions": {
+            "North": null,
+            "South": "Storage",
+            "East": "Weapons",
+            "West": "UpperEngine"
+        }
+    },
+    "Weapons": {
+        "Items": [
+            {
+                "Name": "Locked Box",
+                "Description": "A box that requires two special keys to open.",
+                "SolveKey": [
+                    "a broken Key 1",
+                    "a broken Key 2"
+                ]
+            },
+            "Gun"
+        ],
+        "Description": "You are in the Weapons room.",
+        "Directions": {
+            "North": null,
+            "South": "Navigation",
+            "East": null,
+            "West": "Cafeteria"
+        }
+    },
+    "Navigation": {
+        "Items": [
+            "bullet",
+            "8989"
+        ],
+        "Description": "You are in the Navigation room.",
+        "Directions": {
+            "North": "Weapons",
+            "South": null,
+            "East": null,
+            "West": null
+        }
+    },
+    "Basement": {
+        "Items": [
+            {
+                "Name": "Dark",
+                "Description": "This room is dark; you need a light to see.",
+                "SolveKey": [
+                    "Torch"
+                ]
+            },
+            "ExitKey"
+        ],
+        "Description": "You are in the Basement.",
+        "Directions": {
+            "North": "Storage",
+            "South": null,
+            "East": null,
+            "West": "ExitRoom"
+        }
+    },
+    "Storage": {
+        "Items": [
+            "a broken Key 1"
+        ],
+        "Description": "You are in the Storage room.",
+        "Directions": {
+            "North": "Cafeteria",
+            "South": "Basement",
+            "East": "Navigation",
+            "West": "Reactor"
+        }
+    },
+    "Reactor": {
+        "Items": [
+            "food",
+            {
+                "Name": "Locked Locker",
+                "Description": "A locker that requires a passcode to open.",
+                "SolveKey": [
+                    "8989"
+                ]
+            },
+            "a broken Key 2"
+        ],
+        "Description": "You are in the Reactor room.",
+        "Directions": {
+            "North": null,
+            "South": null,
+            "East": "Storage",
+            "West": null
+        }
+    },
+    "UpperEngine": {
+        "Items": [
+            "bullet"
+        ],
+        "Description": "You are in the Upper Engine room.",
+        "Directions": {
+            "North": null,
+            "South": "Security",
+            "East": "Cafeteria",
+            "West": null
+        }
+    },
+    "Security": {
+        "Items": [
+            {
+                "Name": "Monster",
+                "Description": "A monster is sleeping; requires a gun and two bullets to kill.",
+                "SolveKey": [
+                    "Gun",
+                    "bullet",
+                    "bullet"
+                ]
+            },
+            "Torch"
+        ],
+        "Description": "You are in the Security room.",
+        "Directions": {
+            "North": "UpperEngine",
+            "South": "ExitRoom",
+            "East": null,
+            "West": null
+        }
+    },
+    "ExitRoom": {
+        "Items": [
+            {
+                "Name": "Locked Door",
+                "Description": "You require a ExitKey to open it",
+                "SolveKey": [
+                    "ExitKey"
+                ]
+            }
+        ],
+        "Description": "You are in the Exit room.",
+        "Directions": {
+            "North": null,
+            "South": null,
+            "East": null,
+            "West": null
+        }
+    }
+}
