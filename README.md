@@ -1,22 +1,31 @@
-Ahmed haseeb  006
+Ahmed haseeb butt 006
 
-Player Class
-The Player class manages the player's current state, including their location, health, and inventory. It provides essential methods to allow the player to interact with the game world, move between rooms, pick up and use items, solve puzzles, and track health.
 
-Attributes
+Game Class
+The Game class handles the overall game flow, managing interactions between the player and the game world. It provides functionality for saving, loading, and controlling the game loop.
 
-Current_Location: The room the player is currently in (default is "Cafeteria").
-Health: The player's health (starting at 100). Health can decrease or be restored by eating food.
-Inventory: A list of items the player has collected, used for solving puzzles or restoring health.
+Class Functions
+__init__
 
-Key Methods
+Initializes a new game instance and creates a Player object.
+game_state()
 
-look(): Describes the current location, displays available items or puzzles, and checks if a puzzle can be solved with the items in the inventory.
-move(): Allows the player to move to a different room based on available directions. The player cannot enter certain rooms (e.g., ExitRoom) without required items.
-pick(): Lets the player pick up items in the current room and add them to their inventory.
-look_inventory(): Displays the player's inventory and offers the option to drop items.
-use_inventory(): Checks if the player has the correct items to solve a puzzle.
-drop_item(): Allows the player to drop an item from their inventory into the current room.
-eat_food(): Restores health if the player has food in their inventory.
-exit_room(): A final riddle challenge in the ExitRoom to win the game.
-The player must strategize their moves, solve puzzles, and manage their inventory effectively to win the game!
+Saves the current game state, including the player’s inventory, health, and current room, into a game_state.json file.
+Serializes the state of all rooms (items, descriptions, directions) and saves it to a rooms.json file.
+load_game()
+
+Loads the game state from previously saved game_state.json and rooms.json files.
+Restores the player's inventory, health, and location from the saved state.
+Serialized_room(rooms)
+
+Takes the rooms dictionary and serializes it by converting any puzzle objects into a dictionary format that can be saved in the JSON file.
+Ensures all room details are properly saved, including items and directions.
+play()
+
+Asks the player whether they want to start a new game or load a saved game.
+Calls the appropriate functions to load the saved state or initiate a new game.
+play_game()
+
+The main game loop where the player interacts with the game world.
+Offers the player options to look around, move between rooms, pick up items, check inventory, save the game, or quit.
+Repeats until the player either saves the game and quits or chooses to exit without saving.
